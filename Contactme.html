@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Contact Details</title>
+
+</head>
+
+<body>
+
+  <h3>My Contact Details</h3>
+
+  <table>
+
+    <tr>
+      <td>Email Id </td>
+      <td>: abhinavjha.work@gmail.com</td>
+
+
+    </tr>
+
+    <tr>
+      <td>Contact Number </td>
+
+      <td>: +91 9479958526</td>
+    </tr>
+
+    <tr>
+
+      <td><a href="https://www.linkedin.com/in/abhinav-jha-0805/">Linkedin</a></td>
+
+    </tr>
+
+  </table>
+
+  <h3>Contact Us</h3>
+
+  <!--Here we are making a form using the "form" command whcih makes the boiler plate code and other attributes of the form are
+  also there which are used with coordination with the CSS and javascript but for now we will do only HTML so what we have is
+  a simple form where there is a label, an input, various types of inputs, action, method, name and encoding type:
+
+  > "action" does is that when we click the submit button that is the point when whatever we defined in the action
+    attribute will happen here we have used "mailto" attibute of the action which forces the browser to open up a mailing App
+    or just default mailing site like gmail and we have to give the email to which we have to send the mail to.
+
+  > "method" is what the action will do with the data we have inside the form every input will be included in this.
+
+  > "enctype" is the Encoding type which just makes sure that whatever info is submitted is in correct format.
+
+  > "name" attribute helps the mailing app or site to differentiate between different inputs.
+
+ -->
+  <form action="mailto:abhinavjha.work@gmail.com" method="post" enctype="text/plain">
+
+    <!--This the label where what we write gets a label which yoou can see how it works by running this  -->
+    <label> Your Name</label>
+
+    <!-- This is the input where there are various type and attributes which we will discuss after we have learned CSS and javascript
+    but for now we are usning simple types like text and submit and text area which you can see how it works and there are other attributes
+    also you can see in the mdn or devdocs.io-->
+    <input type="text" name="Yourname">
+
+    <br>
+    <br>
+
+    <label>Your Email</label>
+
+    <input type="email" name="YourEmail">
+
+    <br>
+    <br>
+
+
+    <label>Youe Message:</label>
+
+    <br>
+    <br>
+
+
+    <textarea name="name" rows="8" cols="40"></textarea>
+
+    <br>
+    <br>
+
+    <input type="submit" name="">
+
+  </form>
+
+</body>
+
+</html>
